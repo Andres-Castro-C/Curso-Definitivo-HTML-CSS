@@ -12,6 +12,7 @@
 </head>
 <body>
     <main>
+        <!--Calendrio largo con todos los input-->
         <form action="">
             <label for="hora">
                 <span>Hora</span>
@@ -36,6 +37,7 @@
             <input type="submit">
         </form>
 
+        <!--Calendario-->
         <form action=""> 
             <label for="calendario">
                 <span>Calendario</span>
@@ -44,6 +46,35 @@
 
             <input type="submit">
         </form>
+
+        <!-- Autocomplete y require -->
+        <form action="">
+            <label for="nombre">
+                <span>Nombre</span>
+                <input type="text" id="nombre" name="nombre" placeholder="Andres"
+                    autocomplete="name"  required>
+            </label>
+
+            <label for="correo_electronico">
+                <span>Correo Electronico</span>
+                <input type="email" id="correo_electronico" name="correo_electronico" 
+                    placeholder="andres123@gmail.com" autocomplete="email" required>
+            </label>
+
+            <label for="pais">
+                <span>Pais</span>
+                <input type="" id="pais" name="pais" placeholder="Colombia" 
+                    autocomplete="country" required>
+            </label>
+
+            <label for="codigo_postal">
+                <span>Codigo Postal</span>
+                <input type="number" id="codigo_postal" name="codigo_postal" placeholder="11101101"
+                    autocomplete="postal-code" required>
+            </label>
+
+            <input type="submit">
+        </form>
     </main>
 </body>
-</html>
+</html
