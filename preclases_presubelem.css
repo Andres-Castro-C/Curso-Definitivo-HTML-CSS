@@ -1,0 +1,34 @@
+header{
+    background-color: beige;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+.header-navegation{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titutlo h1{
+    font-size: 30px;
+}
+
+.main-nav li{
+    margin-left: 50px;
+    display: inline-block;
+    align-items: center;
+}
+
+.main-nav li a{
+    text-decoration: none;    
+    color: black;
+}
+
+.main-nav li a:hover{
+    color: blue;
+}
+.main-nav li a::after{
+    padding-left: 20px;
+    content: " | ";
+}
