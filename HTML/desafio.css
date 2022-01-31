@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+   background-color: gray;
+   border: 5px solid black;
+   border-radius: 20px;
+   width: 50%;
+   height: 40%;
+   margin: 0 auto;
+   margin-top: 100px;
+}
+
+figure{
+    background-color: #a52a2a;
+    border-radius: 20px;
+    width: 50%;
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+    top: -30px;
+}
+
+figure h1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+main p{
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
